@@ -1,0 +1,39 @@
+package cmd.test;
+import java.util.Scanner;
+public class Exp5 {
+	public void sub(int a,int b)
+	{
+		System.out.println(a-b);
+	}
+public static void main(String[] args)
+{
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter the case number : ");
+	int x = sc.nextInt();
+//	int d = sc.nextInt();
+	switch(x)
+	{
+	case 1 : {
+		System.out.println("In case 1 - addition");
+		System.out.println("Enter a value ");
+		int a = sc.nextInt();
+		System.out.println("Enter a value ");
+		int b = sc.nextInt();
+		System.out.println(a+b);
+	}
+	break;
+	case 2 :{
+		System.out.println("In case 2 - Substraction");
+		System.out.println("Enter a value ");
+		int i = sc.nextInt();
+		System.out.println("Enter a value ");
+		int j = sc.nextInt();
+		Exp5 obj = new Exp5();
+		obj.sub(i,j);
+	}
+	break;
+	default : System.out.println("Enter a case number");
+	}
+}
+
+}

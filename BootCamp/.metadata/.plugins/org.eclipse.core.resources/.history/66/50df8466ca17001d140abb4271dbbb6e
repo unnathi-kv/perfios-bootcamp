@@ -1,0 +1,8 @@
+package p2;
+import p1.ValidateData;;
+public class Test {
+	public static void main(String[] args)
+	{
+		ValidateData obj = new ValidateDate();
+	}
+}

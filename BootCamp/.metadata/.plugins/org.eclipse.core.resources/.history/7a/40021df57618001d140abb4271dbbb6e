@@ -1,0 +1,33 @@
+package com.test;
+//Syntax for constructors.
+
+class Emp
+{
+	public Emp()//default constructor
+	{
+		System.out.println("default");
+	}
+	public Emp(int id, String name)//parameterised constructor
+	{
+		System.out.println("Parameterised");
+	}
+	public Emp(double id, char name)//overload constructor
+	{
+		System.out.println("Overloading");
+	}
+	public Emp(Emp obj)//Object parameterised constructor
+	{
+		System.out.println("Object parameterised");
+	}
+}
+public class Eg3 {
+	public static void main(String[] args)
+	{
+		Emp obj = new Emp(10.00, 'a'); // prints default
+		
+		
+	}
+	
+	
+	
+}

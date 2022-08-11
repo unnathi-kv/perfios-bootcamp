@@ -1,0 +1,17 @@
+package com.test;
+
+public class Eg1 {
+	int a = 10; //non-static - stores in heap memory
+	static int b = 20;//static- stores in stack memory
+	public void disp()
+	{
+		System.out.println(a+ " "+Eg1.b);
+	}
+	public static void main(String[] args)
+	{
+		Eg1 obj =new Eg1();
+		obj.disp();
+		System.out.println(obj);// prints hashcode of object
+		System.out.println(obj.hashCode());//hashCode()- method in objectclass which prints hashcode of object and returns integer.
+	}
+} 

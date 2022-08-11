@@ -1,0 +1,32 @@
+package com.test;
+
+class MethodChain
+{
+	public void method1()
+	{
+		System.out.println("Method1");
+		methodn();
+	}
+	public void method2()
+	{
+		System.out.println("Method2");
+		method1();
+	}
+	public void method3()
+	{
+		System.out.println("Method3");
+		method2();
+	}
+	public void methodn()
+	{
+		System.out.println("Methodn");
+		method3();
+	}
+}
+public class Eg2 {
+	public static void main(String[] args)
+	{
+		MethodChain obj = new MethodChain();
+		obj.method1();
+	}
+}

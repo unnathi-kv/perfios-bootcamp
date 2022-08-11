@@ -1,0 +1,10 @@
+package p2;
+import p1.ValidateData;
+// import p1.DataStd;
+public class Test {
+	public static void main(String[] args)
+	{
+		ValidateData obj = new ValidateData();
+		obj.disp();
+	}
+}
