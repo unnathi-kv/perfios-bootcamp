@@ -52,13 +52,9 @@ public static void main(String[] args)
 			System.out.println("Email id "+obj.getEmailId()+ " already exists");
 			flag=1;
 			c++;
-			break;
-		}
-		else {
-		flag=0;
-		db[c].setEmailId(id);
 		}
 	}
+	
 	for(int y = 0;y<db.length;y++)
 	{
 	System.out.println(db[y].getEmailId());
