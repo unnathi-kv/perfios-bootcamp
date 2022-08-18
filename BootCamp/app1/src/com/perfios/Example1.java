@@ -20,7 +20,7 @@ class Exp2 extends Example1{
 	public void disp()
 	//same package sub class
 	{
-		System.out.println(x);//private- X
+		//System.out.println(x);//private- X
 		System.out.println(y);//default - O
 		System.out.println(z);//protected - O
 		System.out.println(a);// public - O

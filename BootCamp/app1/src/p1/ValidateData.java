@@ -22,6 +22,6 @@ public class ValidateData extends DataStd
 		System.out.println(name);
 //		System.out.println(a);
 		System.out.println("Id :"+x);
-		System.out.println("Roll number:"+roll);
+		System.out.println("Roll number:"+y);
 	}
 }
