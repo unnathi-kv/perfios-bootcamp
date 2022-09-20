@@ -4,7 +4,7 @@ public class Test5 {
 public static void main(String[] args)
 {
 	String str1 = "java";
-	//str1.append();//error string are immutable
+	//str1.append();//error string is immutable
 	StringBuffer sb1 = new StringBuffer();
 	System.out.println(sb1.capacity());
 	StringBuffer sb = new StringBuffer(str1);//no error StringBuffer mutable
