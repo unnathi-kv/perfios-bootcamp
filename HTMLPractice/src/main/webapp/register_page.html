@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registration Page</title>
+<link rel="stylesheet" href="styles.css">
+<style type="text/css">
+
+.error{
+	color:#F8173D 
+	}
+	body{
+
+font-family: Montserrat-Regular,sans-serif;
+}
+
+</style>
+</head>
+<body>
+<form action="#">
+	<font color=#FDFEFE class="register_form">
+		<h1 align ="center">Welcome to SVT Bank Sign Up Page</h1>
+	<p align ="center">	
+		Enter FullName : <input type ="text" name ="fname"><br><br>
+		Enter UserName <span class ="error">*</span> : <input type ="text" name ="user" required="required"><br><br>
+		Enter Password <span class ="error">*</span> : <input type ="text" name ="pwd" required="required"><br><br>
+		Select City : 
+		<select>
+		<option value ="">Select city</option>
+		<option value="">Bangalore</option>
+		<option value ="">Hyderabad</option>
+		<option value ="">Tirupati</option>	
+		</select><br><br>
+		Select Language :
+		<input type ="checkbox" name ="l1" value="telugu">Telugu &nbsp;&nbsp;
+		<input type ="checkbox" name ="l2" value="english">English &nbsp;&nbsp;
+		<input type ="checkbox" name ="l3" value="hindi">Hindi &nbsp;&nbsp;
+		<br><br>
+		Select Gender :
+		<input type ="radio" name ="gender">Male &nbsp;&nbsp;
+		<input type ="radio" name ="gender">Female &nbsp;&nbsp;
+		<input type ="radio" name ="gender">Other &nbsp;&nbsp;
+		<br><br>
+		Address :<textarea rows="5" cols="12"></textarea><br><br>
+		Enter Mobile Number : <input type = "tel" name="mobile"><br><br>
+		Enter Email : <input type="email" name ="email"><br><br>
+		
+		
+		<input type = "submit" value ="Sign up">
+	</p>
+</form>
+</body>
+</html>

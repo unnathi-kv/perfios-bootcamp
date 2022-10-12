@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Example 1</title>
+</head>
+<body>
+<h1>Javascript Example</h1>
+<input type="button" onclick="greet()" value = "Click here">
+<!-- onclick is an inbuilt option  -->
+<form action="#" name ="perfios" onsubmit="userValidater()">
+Enter username :<input type ="text"  name ="user"><br><br>
+Enter password :<input type ="text" name ="pwd"><br><br>
+ <input type="submit" value="Login" >
+ 
+</form>
+<script type="text/javascript">
+function greet() {
+	document.write("Simple javascript function");//document is an inbuilt object.write()-method to print
+	//no compile-time errros and run time errord only syntax errors
+}
+function userValidater()
+{
+	console.log("Hi");
+	var usr= document.getElementsByName("perfios")[0].user;
+	console.log(usr);
+	var pass = document.getElementsByName("perfios")[0].pwd.value;
+	if(usr == null)
+		{
+			alert("Enter username");
+			return false; //return false so that it can go to next page.
+		}
+	if(pass==null || pass.length<8)
+		{
+		alert("Enter valid  password");
+		return false;
+		
+		}
+	
+	}
+
+
+</script>
+</body>
+</html>

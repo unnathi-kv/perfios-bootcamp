@@ -1,0 +1,59 @@
+@charset "UTF-8";
+body
+{
+	background-color: white;
+}
+navbar {  
+  background-color: #80ced6;
+  overflow: auto;
+  width: 100%;   
+}
+
+.navbar a {
+  float: right;
+  text-align: center;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ffffff;
+}
+
+
+.active {
+  background-color: #3fafbf;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+.login_header{
+	text-align:center;
+}
+.login_form{
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+.login_page{
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+  
+}

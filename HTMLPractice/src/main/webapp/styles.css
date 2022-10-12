@@ -1,0 +1,26 @@
+.register_form{
+	color:black;
+}
+.login_header{
+	text-align:center;
+}
+.login_form{
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+.login_page{
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+}
