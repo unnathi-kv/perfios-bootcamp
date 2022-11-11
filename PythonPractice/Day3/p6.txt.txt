@@ -1,0 +1,6 @@
+Maths: 50
+English: 25
+Science: 42
+History: 45
+Geography: 10
+Average: 34.4
